@@ -1,8 +1,16 @@
 # minimal_bison_parser
 minimal example for parser with bison
 
-## Build on Windows with MinGW-64
+## Info
+minimal_grammar.y contains a grammar description that causes shift/reduce errors.
+
+minimal_grammar_corrected.y contains a description that gets rid of the ambiguity.
+
+## Howto
+
+### Build on Windows with MinGW-64
 `make exe`
 
-## Call
+### Call
 `minimal.exe <input_file_name>`
+
