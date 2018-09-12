@@ -1,0 +1,18 @@
+-- comment before header section
+some_id_in_header
+some_other_id
+
+-- comment before contents section
+-- in this example the contents section contains FOO and BAR declarations
+foo "first foo"
+foo "second foo"
+bar_start Bar1 "one bar" bar_end
+bar_start Bar2 "other bar" bar_end
+foo "yet another foo"
+foo "never enough"
+bar_start Bar3 "because why not" bar_end
+
+
+-- comment before tail section
+"some string in tail"
+"some other string"

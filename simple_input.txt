@@ -1,0 +1,13 @@
+-- comment before header section
+some_id_in_header
+some_other_id
+
+-- comment before contents section
+-- in this example the contents section only contains FOO declarations
+foo "first foo"
+foo "second foo"
+
+
+-- comment before tail section
+"some string in tail"
+"some other string"
