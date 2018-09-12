@@ -5,4 +5,4 @@ minimal example for parser with bison
 `make exe`
 
 ## Call
-`minimal.exe input.txt`
+`minimal.exe <input_file_name>`
